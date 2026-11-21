@@ -40,7 +40,7 @@ export default function CultureExplorerPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
-      
+
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto space-y-3">
         <div className="inline-flex items-center space-x-2 text-xs font-bold text-[#8844C9] uppercase tracking-wider px-3 py-1 rounded-full bg-[#8844C9]/20 border border-[#8844C9]/40">
@@ -59,11 +59,10 @@ export default function CultureExplorerPage() {
       <div className="flex items-center justify-center space-x-3">
         <button
           onClick={() => setActiveTab('food')}
-          className={`relative flex items-center space-x-2 px-6 py-3 rounded-xl font-bold text-sm transition-colors ${
-            activeTab === 'food'
+          className={`relative flex items-center space-x-2 px-6 py-3 rounded-xl font-bold text-sm transition-colors ${activeTab === 'food'
               ? 'text-white'
               : 'text-[#9A9E96] hover:text-white bg-[#151319] border border-white/5'
-          }`}
+            }`}
         >
           {activeTab === 'food' && (
             <motion.div
@@ -78,11 +77,10 @@ export default function CultureExplorerPage() {
 
         <button
           onClick={() => setActiveTab('festivals')}
-          className={`relative flex items-center space-x-2 px-6 py-3 rounded-xl font-bold text-sm transition-colors ${
-            activeTab === 'festivals'
+          className={`relative flex items-center space-x-2 px-6 py-3 rounded-xl font-bold text-sm transition-colors ${activeTab === 'festivals'
               ? 'text-white'
               : 'text-[#9A9E96] hover:text-white bg-[#151319] border border-white/5'
-          }`}
+            }`}
         >
           {activeTab === 'festivals' && (
             <motion.div
@@ -103,11 +101,10 @@ export default function CultureExplorerPage() {
             <button
               key={s}
               onClick={() => setSelectedState(s)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
-                selectedState === s
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition ${selectedState === s
                   ? 'bg-[#30213D] text-white border border-[#8844C9]'
                   : 'bg-[#090A0B] text-[#9A9E96] hover:text-white border border-white/5'
-              }`}
+                }`}
             >
               {s === 'All' ? 'All States' : s}
             </button>
@@ -117,11 +114,10 @@ export default function CultureExplorerPage() {
         {activeTab === 'food' && (
           <button
             onClick={() => setVegOnly(!vegOnly)}
-            className={`px-3 py-1.5 rounded-xl text-xs font-semibold border flex items-center space-x-1.5 transition ${
-              vegOnly 
-                ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40' 
+            className={`px-3 py-1.5 rounded-xl text-xs font-semibold border flex items-center space-x-1.5 transition ${vegOnly
+                ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
                 : 'bg-[#090A0B] text-[#9A9E96] border-white/5'
-            }`}
+              }`}
           >
             <Leaf className="w-3.5 h-3.5" />
             <span>Vegetarian Only</span>
@@ -153,17 +149,16 @@ export default function CultureExplorerPage() {
                   className="rounded-2xl overflow-hidden glass-panel border border-white/10 halo-card flex flex-col justify-between"
                 >
                   <div className="aspect-[16/10] bg-[#151319] overflow-hidden relative">
-                    <img 
-                      src={f.image_url} 
-                      alt={f.name} 
+                    <img
+                      src={f.image_url}
+                      alt={f.name}
                       onError={(e) => handleImageError(e, 'Food')}
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" 
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                     />
-                    <span className={`absolute top-2.5 left-2.5 px-2 py-0.5 rounded text-[10px] font-bold ${
-                      f.is_vegetarian 
-                        ? 'bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 backdrop-blur-md' 
+                    <span className={`absolute top-2.5 left-2.5 px-2 py-0.5 rounded text-[10px] font-bold ${f.is_vegetarian
+                        ? 'bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 backdrop-blur-md'
                         : 'bg-rose-500/30 text-rose-300 border border-rose-500/40 backdrop-blur-md'
-                    }`}>
+                      }`}>
                       {f.is_vegetarian ? 'Veg' : 'Non-Veg'}
                     </span>
                     <span className="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded text-[10px] font-bold bg-black/80 text-white">
@@ -212,11 +207,10 @@ export default function CultureExplorerPage() {
                         <MapPin className="w-3.5 h-3.5" />
                         <span>{fest.state}</span>
                       </span>
-                      <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full border ${
-                        fest.is_fixed_date 
-                          ? 'bg-[#151319] text-[#A2B091] border-[#A2B091]/30' 
+                      <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full border ${fest.is_fixed_date
+                          ? 'bg-[#151319] text-[#A2B091] border-[#A2B091]/30'
                           : 'bg-[#151319] text-amber-300 border-amber-500/30'
-                      }`}>
+                        }`}>
                         {fest.is_fixed_date ? 'Fixed Annual Date' : 'Lunar / Seasonal'}
                       </span>
                     </div>

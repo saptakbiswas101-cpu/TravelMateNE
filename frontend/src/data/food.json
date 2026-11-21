@@ -25,7 +25,7 @@
     "description": "A light, refreshing sour fish curry infused with elephant apple (Ou Tenga), tomatoes, or lemon, served warm over steamed Joha rice.",
     "category": "Fish Main Course",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Fresh River Rohu / Katla Fish",
       "Tomatoes / Ou Tenga",
@@ -43,7 +43,7 @@
     "description": "A celebrated festive delicacy of slow-cooked duck meat simmered in a thick, rich gravy of roasted black sesame seed paste and ginger.",
     "category": "Poultry Main Course",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Local Duck Meat",
       "Roasted Black Sesame Paste",
@@ -61,7 +61,7 @@
     "description": "Traditional cylindrical rolled rice cakes stuffed with roasted black sesame and molten jaggery, prepared during Magh Bihu festival.",
     "category": "Traditional Snack / Sweet",
     "is_vegetarian": true,
-    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Bora Saul (Sticky Rice)",
       "Black Sesame",
@@ -96,7 +96,7 @@
     "description": "A famous traditional Apatani condiment made by boiling pork fat, bamboo shoot paste, king chillies, and filtered plant ash liquid.",
     "category": "Chutney / Condiment",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Pork Fat / Smoked Pork",
       "Fermented Bamboo Shoot",
@@ -147,7 +147,7 @@
     "description": "The signature dish of Meghalaya: short-grained hill rice slow-cooked with tender pork pieces, ginger, onions, and rich meat broth.",
     "category": "Rice Specialty",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Khasi Red Rice",
       "Pork Cuts",
@@ -165,7 +165,7 @@
     "description": "Succulent pork stewed in a dark, thick paste made from roasted black sesame seeds (Nei-iong) and aromatic garlic.",
     "category": "Meat Main Course",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Pork Belly",
       "Roasted Black Sesame Paste",
@@ -183,7 +183,7 @@
     "description": "A beloved daily delicacy of fermented indigenous soybeans cooked with black sesame, pork pieces, and ginger.",
     "category": "Traditional Stew",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Fermented Soybeans",
       "Black Sesame",
@@ -217,7 +217,7 @@
     "description": "An iconic Manipuri comfort dish prepared by mashing boiled vegetables and potatoes with fermented sun-dried fish (Ngari) and ghost chillies.",
     "category": "Mashed Side / Chutney",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Boiled Potatoes & Bamboo Shoots",
       "Ngari (Fermented Fish)",
@@ -235,7 +235,7 @@
     "description": "A light, healthy soupy vegetable stew cooked with seasonal organic greens, dried fish or fried fish, sliced onions, and maroi herbs.",
     "category": "Vegetable & Fish Stew",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Seasonal Greens",
       "Ngari / Fried Fish",
@@ -253,7 +253,7 @@
     "description": "A vibrant and fiery raw indigenous salad made with lotus stem, cabbage, stink beans (yongchak), roasted perilla seeds, and chilli paste.",
     "category": "Raw Salad / Street Snack",
     "is_vegetarian": true,
-    "image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Lotus Stem / Cabbage",
       "Roasted Perilla Seeds (Thoiding)",
@@ -271,7 +271,7 @@
     "description": "A stunning purple-hued dessert porridge made with GI-tagged Manipuri black aromatic sticky rice slow-simmered in milk and cardamom.",
     "category": "Traditional Dessert",
     "is_vegetarian": true,
-    "image_url": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Chak-Hao (Black Rice)",
       "Full Cream Milk",
@@ -289,7 +289,7 @@
     "description": "The quintessential Mizo vegetable broth cooked without oil using fresh local greens, mustard leaves, bamboo shoot, and local cooking soda (chingal).",
     "category": "Soup / Broth",
     "is_vegetarian": true,
-    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Mustard Leaves / French Beans",
       "Pork Fat or Plain (Veg)",
@@ -360,7 +360,7 @@
     "description": "The world-famous Naga delicacy of hearth-smoked pork simmered with fermented soybean paste (Axone), king chilli, and ginger.",
     "category": "Meat Main Course",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Hearth-Smoked Pork",
       "Axone (Fermented Soy Cake)",
@@ -378,7 +378,7 @@
     "description": "Tender pieces of pork stewed with crushed sour fermented bamboo shoot (Bastenga), garlic, and spicy green chillies.",
     "category": "Meat Main Course",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Fresh Pork",
       "Fermented Wet Bamboo Shoot",
@@ -396,7 +396,7 @@
     "description": "Fermented yam leaves dried into dark patties (Anishi) and slow-cooked with smoked pork and fiery chillies.",
     "category": "Traditional Meat Stew",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Anishi (Dried Fermented Yam Patties)",
       "Smoked Pork",
@@ -432,7 +432,7 @@
     "description": "The traditional soul food of Tripura: seasonal vegetables boiled with 'Berma', a sun-dried, fermented indigenous fish paste cooked without a single drop of oil.",
     "category": "Traditional Fish & Veg Stew",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Berma (Fermented Fish)",
       "Potatoes & Seasonal Vegetables",
@@ -450,7 +450,7 @@
     "description": "A healthy, traditional alkaline delicacy prepared using bamboo shoots, green papaya, jackfruit seeds, pork cuts, and filtered natural wood ash water (Kharok).",
     "category": "Alkaline Stew",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Fresh Bamboo Shoot",
       "Green Papaya",
@@ -468,7 +468,7 @@
     "description": "Fragrant sticky rice blended with pork cubes, ginger, and onion, wrapped neatly into a cone using Lairu wild leaves and boiled slowly.",
     "category": "Leaf-wrapped Sticky Rice",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Guria Sticky Rice",
       "Pork Lard & Meat",
@@ -485,7 +485,7 @@
     "description": "A spicy, tangy tomato and fermented fish chutney roasted on an open flame with garlic and green chillies.",
     "category": "Chutney / Relish",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Berma (Fermented Fish)",
       "Roasted Tomatoes",
@@ -539,7 +539,7 @@
     "description": "A classic Bhutia winter dish of pork fat strips stewed with dried mountain radishes and spicy whole red chillies, cooked without heavy spices.",
     "category": "Meat Main Course",
     "is_vegetarian": false,
-    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Pork Strips",
       "Dried Radish (Mula)",
@@ -557,7 +557,7 @@
     "description": "A traditional ring-shaped crispy sweet rice bread deep-fried to golden perfection, served with spicy mountain-style potato curry.",
     "category": "Festive Bread / Breakfast",
     "is_vegetarian": true,
-    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=800&auto=format&fit=crop",
     "ingredients": [
       "Rice Flour",
       "Ghee / Butter",

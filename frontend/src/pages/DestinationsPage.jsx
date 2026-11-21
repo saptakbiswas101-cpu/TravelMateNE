@@ -45,7 +45,7 @@ export default function DestinationsPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
-      
+
       {/* Page Header */}
       <div className="space-y-3">
         <div className="inline-flex items-center space-x-2 text-xs font-bold text-[#8844C9] uppercase tracking-wider">
@@ -62,7 +62,7 @@ export default function DestinationsPage() {
 
       {/* Filter and Search Controls Bar */}
       <div className="p-5 rounded-2xl glass-panel border border-white/10 space-y-4 shadow-xl">
-        
+
         {/* Search input */}
         <div className="relative">
           <Search className="w-5 h-5 text-[#8844C9] absolute left-3.5 top-3" />
@@ -85,7 +85,7 @@ export default function DestinationsPage() {
 
         {/* Dropdown Filters and Sort */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
-          
+
           {/* State Filter */}
           <div>
             <label className="block text-[11px] font-bold text-[#9A9E96] uppercase mb-1">State</label>
@@ -160,7 +160,7 @@ export default function DestinationsPage() {
           ))}
         </div>
       ) : destinations.length === 0 ? (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           className="py-20 text-center glass-panel rounded-2xl p-8 space-y-4"
@@ -175,7 +175,7 @@ export default function DestinationsPage() {
           </button>
         </motion.div>
       ) : (
-        <motion.div 
+        <motion.div
           layout
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >

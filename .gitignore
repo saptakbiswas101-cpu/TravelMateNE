@@ -69,3 +69,5 @@ $RECYCLE.BIN/
 !.vscode/settings.json
 *.sublime-project
 *.sublime-workspace
+
+cloudflared.exe

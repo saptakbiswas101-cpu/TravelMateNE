@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { motion, useReducedMotion } from 'framer-motion';
-import { 
-  MapPin, 
-  Clock, 
-  IndianRupee, 
-  ShieldAlert, 
-  Navigation, 
-  Heart, 
-  ArrowLeft, 
-  Sparkles, 
-  CheckCircle2, 
-  Calendar, 
-  Compass, 
+import {
+  MapPin,
+  Clock,
+  IndianRupee,
+  ShieldAlert,
+  Navigation,
+  Heart,
+  ArrowLeft,
+  Sparkles,
+  CheckCircle2,
+  Calendar,
+  Compass,
   Share2
 } from 'lucide-react';
 import { api } from '../services/api';
@@ -154,11 +154,10 @@ export default function DestinationDetailPage() {
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={() => toggleSaveDestination(destination.id)}
-            className={`p-2.5 rounded-xl border transition flex items-center space-x-1.5 ${
-              isSaved 
-                ? 'bg-[#8844C9] text-white border-[#8844C9] shadow-halo-glow' 
+            className={`p-2.5 rounded-xl border transition flex items-center space-x-1.5 ${isSaved
+                ? 'bg-[#8844C9] text-white border-[#8844C9] shadow-halo-glow'
                 : 'bg-[#151319] text-[#DADCD3] hover:text-white border-white/10'
-            }`}
+              }`}
           >
             <Heart className={`w-4 h-4 ${isSaved ? 'fill-current' : ''}`} />
             <span className="text-xs hidden sm:inline">{isSaved ? 'Saved' : 'Save'}</span>
@@ -182,8 +181,8 @@ export default function DestinationDetailPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#090A0B] via-[#090A0B]/40 to-transparent pointer-events-none" />
 
         {/* 2 & 3. Title, State & Category Information */}
-        <motion.div 
-          variants={itemVariants} 
+        <motion.div
+          variants={itemVariants}
           className="absolute bottom-6 left-6 right-6 sm:bottom-10 sm:left-10 sm:right-10 space-y-2 pointer-events-auto"
         >
           <div className="flex flex-wrap items-center gap-2">
@@ -248,10 +247,10 @@ export default function DestinationDetailPage() {
 
       {/* Main Content & Sidebar */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-        
+
         {/* Left Column: Description, Highlights, Precautions, Accessibility */}
         <div className="lg:col-span-2 space-y-8">
-          
+
           {/* 5. Detailed Description */}
           <motion.div variants={itemVariants} className="p-6 rounded-2xl glass-panel border border-white/10 space-y-4">
             <h3 className="text-xl font-bold text-white">About {destination.name}</h3>
@@ -299,7 +298,7 @@ export default function DestinationDetailPage() {
 
         {/* Right Sidebar: Mini Interactive Map & Trip Planner CTA */}
         <motion.div variants={itemVariants} className="space-y-6">
-          
+
           {/* Mini Interactive Map with Zero API Key OpenStreetMap */}
           <div className="rounded-2xl glass-panel border border-white/10 overflow-hidden shadow-xl p-4 space-y-3">
             <div className="flex items-center justify-between">
