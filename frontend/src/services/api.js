@@ -6,7 +6,9 @@ import localFestivals from '../data/festivals.json';
 import localTransport from '../data/transportation.json';
 import localBudgetBenchmarks from '../data/budget_benchmarks.json';
 
-const API_BASE = '/api';
+// Production API URL configured via VITE_API_BASE_URL (defaults to /api for local dev proxy)
+const RAW_BASE = import.meta.env.VITE_API_BASE_URL || '';
+const API_BASE = RAW_BASE ? (RAW_BASE.endsWith('/api') ? RAW_BASE : `${RAW_BASE.replace(/\/$/, '')}/api`) : '/api';
 
 async function safeFetch(url, options = {}) {
   try {
